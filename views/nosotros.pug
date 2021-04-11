@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5     
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class='img-fluid')
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis numquam, voluptatem nihil id exercitationem obcaecati velit possimus veritatis eligendi dolores ipsum quis suscipit excepturi a nulla qui pariatur dignissimos?
+
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias nobis unde aliquam ut delectus veniam corrupti excepturi aperiam, incidunt amet cum dolor ullam exercitationem aliquid obcaecati, labore magni nisi. Expedita!
+
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, qui expedita laborum dolores incidunt quo, obcaecati sunt veritatis fuga quia voluptates! Nisi nostrum fugiat sint facere repudiandae aspernatur quo nobis.
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class='img-fluid mb-4')
+                    h2.mb-4 Seguridad 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vero
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class='img-fluid mb-4')
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vero
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class='img-fluid mb-4')
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vero
+    
